@@ -22,7 +22,8 @@ class Scraper
   end
   
   def get_courses
-    
+    doc = Nokogiri::HTML(html)
+    doc.css
   end
 end
 
