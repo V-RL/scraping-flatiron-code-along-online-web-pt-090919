@@ -21,7 +21,7 @@ class Scraper
     
     Nokogiri::HTML(html)
     doc = Nokogiri::HTML(html)
-    
+    doc 
   end
 end
 
