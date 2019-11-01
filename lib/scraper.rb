@@ -23,7 +23,7 @@ class Scraper
   
   def get_courses
     doc = Nokogiri::HTML(@html)
-    doc.css(".post").first.cass("h2").text
+    doc.css(".post").first.css("h2").text
   end
 end
 
